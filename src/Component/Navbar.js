@@ -23,12 +23,12 @@ export default function Navbar(props) {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/text-analyzer/">
                 Textarea
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/DarkMode">
+              <Link className="nav-link" to="/aboutUs">
                 About
               </Link>
             </li>
