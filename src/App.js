@@ -40,7 +40,7 @@ function App() {
         <div className="container">
           <Routes>
             <Route
-              path="/"
+              path="/text-analyzer/"
               element={
                 <Textarea
                   title="Enter your paragraph below"
@@ -49,7 +49,7 @@ function App() {
                 />
               }
             />
-            <Route path="/DarkMode" element={<DarkMode />} />
+            <Route path="/aboutUS" element={<DarkMode />} />
           </Routes>
         </div>
       </Router>
