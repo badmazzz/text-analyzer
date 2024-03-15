@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
-import DarkMode from "./Component/DarkMode";
-import Navbar from "./Component/Navbar";
-import Textarea from "./Component/Textarea";
-import Alert from "./Component/Alert";
+import DarkMode from "/Component/DarkMode";
+import Navbar from "/Component/Navbar";
+import Textarea from "/Component/Textarea";
+import Alert from "/Component/Alert";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
